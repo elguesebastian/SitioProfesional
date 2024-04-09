@@ -47,7 +47,7 @@ body {
 
 .fotoprincipal {
   width: 100%;
-  height: 200px;
+  height: 150px;
   display: flex;
   background-image: url(foto1.jpg);
 }
@@ -136,12 +136,14 @@ footer {
 
 .info {
   text-align: left;
+  margin-left: 50px;
 }
 
 .copyright {
   text-align: center;
   display: flex;
   align-items: center;
+  margin-right: 50px;
 }
 
 @media (max-width: 765px) {
