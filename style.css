@@ -3,7 +3,7 @@ header {
   color: #fff;
   padding: 10px;
   display: flex;
-  align-items: center;
+  align-items: center; /* Alinea los elementos verticalmente al centro */
 }
 
 .titulomenu {
@@ -13,12 +13,12 @@ header {
 
 nav ul {
   list-style: none;
-  padding: 0;
+  padding: 0; 
   margin: 0;
 }
 
 nav ul li {
-  display: inline;
+  display: inline; /*para que este alineado*/
   margin-right: 20px;
 }
 
@@ -85,22 +85,21 @@ section ul {
 .servicios-contenedor {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en una nueva línea si no hay suficiente espacio */
 }
 
 .servicio {
-  width: 350px; /*el 25% del ancho del contenedor menos 20 píxeles.*/
+  width: 350px;
   margin-bottom: 20px;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*con esto agrego sombra*/
-  transition: background-color 0.3s ease;
-  cursor: pointer;
-  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*con esto agrego sombra atras de las cajas*/
+  transition: background-color 0.3s ease; /*tiempo que tarda en cambiar de color*/
+  cursor: pointer; /* Cambia el cursor al pasar sobre el servicio */
 }
 
 .servicio:hover {
-  background-color: #d3d3d3;
+  background-color: #d3d3d3; /* Cambia el color de fondo al gris claro */
 }
 
 div.vision {
@@ -123,7 +122,7 @@ div.vision {
 
 footer {
   background-color: #23221f;
-  color: #fff;
+  color: #fff; /* Color de texto */
   padding-top: 15px;
   padding-bottom: 15px;
 }
