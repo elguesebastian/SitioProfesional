@@ -174,3 +174,52 @@ footer {
     display: flex;
   }
 }
+
+/* estilos para el modo noche */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.servicio.dark-mode {
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+}
+
+.servicio.dark-mode:hover {
+  background-color: #3c3c3c;
+}
+
+.servicio.dark-mode h3,
+.servicio.dark-mode p {
+  color: #e0e0e0;
+}
+
+section.dark-mode {
+  background-color: #2c2c2c;
+}
+
+section.gris.dark-mode {
+  background-color: #3c3c3c;
+}
+
+/* estilo para el icono */
+
+#toggle-dark-mode {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: inherit;
+  transition: color 0.3s;
+  display: flex;
+}
+
+#toggle-dark-mode:hover {
+  color: #ffc107;
+}
+
